@@ -8,9 +8,9 @@ class Upload extends Component {
 
   uploadWidget = () => {
     window.cloudinary.openUploadWidget(
-      { cloud_name: 'unicodeveloper',
+      { cloud_name: 'sharonmalio',
         upload_preset: 'b9ej8dr5',
-        tags: ['miniflix']
+        tags: ['react project']
       },
       function(error, result) {
           console.log("This is the result of the last upload", result);
